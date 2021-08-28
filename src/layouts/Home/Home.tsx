@@ -1,21 +1,40 @@
 import React from "react";
-import dataSurvey from "../../survey.json";
+import importData from "../../survey.json";
 import InputSelect from "../../components/InputSelect";
+import { Technology } from "../../common/interfaces/DataTyping";
+import CategoryDisplay from "../../components/CategoryDisplay";
+import { DataInterface } from "../../common/interfaces/DataInterface";
 
 export default function Home(): JSX.Element {
-    const [techList] = React.useState<string[]>(dataSurvey.map((d) => d[0] as string));
-    const [input1Value, setInput1Value] = React.useState("");
-    const [input2Value, setInput2Value] = React.useState("");
+    const surveyData = new Map<string, Technology>();
+    importData.forEach((d) => surveyData.set(d[0] as string, d[1] as Technology));
 
-    const changeHandler1 = (str: string) => setInput1Value(str);
-    const changeHandler2 = (str: string) => setInput2Value(str);
+    const [techList] = React.useState<string[]>([...surveyData.keys()]);
+    const [firstData, setFirstData] = React.useState<DataInterface>();
+    const [secondData, setSecondData] = React.useState<DataInterface>();
+
+    const changeHandler1 = (str: string) => {
+        setFirstData({
+            inputValue: str,
+            data: surveyData.get(str)!,
+            color: `#${Math.floor(Math.random() * 16777215).toString(16)}`,
+        });
+    };
+    const changeHandler2 = (str: string) => {
+        setSecondData({
+            inputValue: str,
+            data: surveyData.get(str)!,
+            color: `#${Math.floor(Math.random() * 16777215).toString(16)}`,
+        });
+    };
 
     return (
         <div className="container mx-auto">
-            <h1 className="text-7xl my-3 font-normal">Techs Benchmark</h1>
-
+            <header className="h-36 align-middle py-7">
+                <h1 className="text-5xl font-normal">Technologies Data Charts</h1>
+            </header>
             {/* select language */}
-            <div className="mt-3 grid grid-cols-2">
+            <div className="mt-3 grid grid-cols-2 mb-3">
                 <div className="mx-auto">
                     <InputSelect changeHandler={changeHandler1} techList={techList} />
                 </div>
@@ -23,6 +42,23 @@ export default function Home(): JSX.Element {
                     <InputSelect changeHandler={changeHandler2} techList={techList} />
                 </div>
             </div>
+            <br />
+            {/* Most Wanted */}
+            {firstData?.inputValue && secondData?.inputValue ? (
+                <div>
+                    <CategoryDisplay title={"Most Wanted"} data1={firstData} data2={secondData} />
+                    <CategoryDisplay title={"Most Loved"} data1={firstData} data2={secondData} />
+                    <CategoryDisplay title={"Popularity (All Developer)"} data1={firstData} data2={secondData} />
+                    <CategoryDisplay
+                        title={"Popularity (Professional Developer)"}
+                        data1={firstData}
+                        data2={secondData}
+                    />
+                    <CategoryDisplay title={"Salary"} data1={firstData} data2={secondData} />
+                </div>
+            ) : (
+                <></>
+            )}
         </div>
     );
 }
