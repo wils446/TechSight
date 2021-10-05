@@ -15,9 +15,11 @@ type CategoryDisplayProps = {
     title: keyof typeof categoryLabels;
     data1: DataInterface;
     data2: DataInterface;
+    visible: boolean;
 };
 
-export default function CategoryDisplay({ title, data1, data2 }: CategoryDisplayProps) {
+export default function CategoryDisplay({ title, data1, data2, visible }: CategoryDisplayProps) {
+    if (!visible) return <></>;
     const key = categoryLabels[title] as ValueOf<typeof categoryLabels>;
 
     return (
