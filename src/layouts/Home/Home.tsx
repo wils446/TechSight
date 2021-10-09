@@ -1,9 +1,8 @@
 import React from "react";
 import importData from "../../survey.json";
 import InputSelect from "../../components/InputSelect";
-import { Technology } from "../../common/interfaces/DataTyping";
+import type { Technology, DataInterface, VisibleCategoryI } from "../../common/interfaces";
 import CategoryDisplay from "../../components/CategoryDisplay";
-import { DataInterface } from "../../common/interfaces/DataInterface";
 
 export default function Home(): JSX.Element {
     const surveyData = new Map<string, Technology>();
@@ -20,7 +19,7 @@ export default function Home(): JSX.Element {
     const [techList] = React.useState<string[]>([...surveyData.keys()]);
     const [firstData, setFirstData] = React.useState<DataInterface>();
     const [secondData, setSecondData] = React.useState<DataInterface>();
-    const [visibleCtgry, setVisibleCtgry] = React.useState({
+    const [visibleCtgry, setVisibleCtgry] = React.useState<VisibleCategoryI>({
         mostWanted: true,
         mostLoved: true,
         popularityAllDev: true,
@@ -42,7 +41,7 @@ export default function Home(): JSX.Element {
             color: `#${Math.floor(Math.random() * 16777215).toString(16)}`,
         });
     };
-    const checkboxChangeHandler = (key: keyof typeof visibleCtgry, str: string) => {
+    const checkboxChangeHandler = (key: keyof typeof visibleCtgry) => {
         setVisibleCtgry((prevState) => {
             const obj = Object.assign({}, prevState);
             obj[key] = !obj[key];
@@ -57,7 +56,7 @@ export default function Home(): JSX.Element {
                     type="checkbox"
                     className="mr-1"
                     defaultChecked={visibleCtgry[d as keyof typeof visibleCtgry]}
-                    onChange={(e) => checkboxChangeHandler(d as keyof typeof visibleCtgry, e.target.value)}
+                    onChange={(e) => checkboxChangeHandler(d as keyof typeof visibleCtgry)}
                 />
                 {categoryLabel[d as keyof typeof categoryLabel]}
             </div>
