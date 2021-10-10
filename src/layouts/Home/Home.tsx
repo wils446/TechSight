@@ -1,17 +1,31 @@
 import React from "react";
 import importData from "../../survey.json";
 import InputSelect from "../../components/InputSelect";
-import { Technology } from "../../common/interfaces/DataTyping";
+import type { Technology, DataInterface, VisibleCategoryI } from "../../common/interfaces";
 import CategoryDisplay from "../../components/CategoryDisplay";
-import { DataInterface } from "../../common/interfaces/DataInterface";
 
 export default function Home(): JSX.Element {
     const surveyData = new Map<string, Technology>();
     importData.forEach((d) => surveyData.set(d[0] as string, d[1] as Technology));
 
+    const categoryLabel = {
+        mostWanted: "Most Wanted",
+        mostLoved: "Most Loved",
+        popularityAllDev: "Popularity By All Developer",
+        popularityProfDev: "Popularity By Professional Developer",
+        salary: "Salary",
+    } as const;
+
     const [techList] = React.useState<string[]>([...surveyData.keys()]);
     const [firstData, setFirstData] = React.useState<DataInterface>();
     const [secondData, setSecondData] = React.useState<DataInterface>();
+    const [visibleCtgry, setVisibleCtgry] = React.useState<VisibleCategoryI>({
+        mostWanted: true,
+        mostLoved: true,
+        popularityAllDev: true,
+        popularityProfDev: true,
+        salary: true,
+    });
 
     const changeHandler1 = (str: string) => {
         setFirstData({
@@ -27,6 +41,27 @@ export default function Home(): JSX.Element {
             color: `#${Math.floor(Math.random() * 16777215).toString(16)}`,
         });
     };
+    const checkboxChangeHandler = (key: keyof typeof visibleCtgry) => {
+        setVisibleCtgry((prevState) => {
+            const obj = Object.assign({}, prevState);
+            obj[key] = !obj[key];
+            return obj;
+        });
+    };
+
+    const categoriesCheckbox = Object.keys(visibleCtgry).map((d, index) => {
+        return (
+            <div className="mx-1.5 inline" key={index}>
+                <input
+                    type="checkbox"
+                    className="mr-1"
+                    defaultChecked={visibleCtgry[d as keyof typeof visibleCtgry]}
+                    onChange={(e) => checkboxChangeHandler(d as keyof typeof visibleCtgry)}
+                />
+                {categoryLabel[d as keyof typeof categoryLabel]}
+            </div>
+        );
+    });
 
     return (
         <div className="container mx-auto">
@@ -43,18 +78,42 @@ export default function Home(): JSX.Element {
                 </div>
             </div>
             <br />
-            {/* Most Wanted */}
+
+            {/* select cateogry */}
+            <div className="my-2">{categoriesCheckbox}</div>
+
             {firstData?.inputValue && secondData?.inputValue ? (
                 <div>
-                    <CategoryDisplay title={"Most Wanted"} data1={firstData} data2={secondData} />
-                    <CategoryDisplay title={"Most Loved"} data1={firstData} data2={secondData} />
-                    <CategoryDisplay title={"Popularity (All Developer)"} data1={firstData} data2={secondData} />
+                    <CategoryDisplay
+                        title={"Most Wanted"}
+                        data1={firstData}
+                        data2={secondData}
+                        visible={visibleCtgry.mostWanted!}
+                    />
+                    <CategoryDisplay
+                        title={"Most Loved"}
+                        data1={firstData}
+                        data2={secondData}
+                        visible={visibleCtgry.mostLoved!}
+                    />
+                    <CategoryDisplay
+                        title={"Popularity (All Developer)"}
+                        data1={firstData}
+                        data2={secondData}
+                        visible={visibleCtgry.popularityAllDev!}
+                    />
                     <CategoryDisplay
                         title={"Popularity (Professional Developer)"}
                         data1={firstData}
                         data2={secondData}
+                        visible={visibleCtgry.popularityProfDev!}
                     />
-                    <CategoryDisplay title={"Salary"} data1={firstData} data2={secondData} />
+                    <CategoryDisplay
+                        title={"Salary"}
+                        data1={firstData}
+                        data2={secondData}
+                        visible={visibleCtgry.salary!}
+                    />
                 </div>
             ) : (
                 <></>

@@ -7,12 +7,12 @@ const categoryLabels = {
     "Most Wanted": "wanted",
     "Most Loved": "loved",
     Salary: "income",
-    "Popularity (All Developer)": "popularityAll",
-    "Popularity (Professional Developer)": "popularityProfessional",
+    "Popularity By All Developer": "popularityAll",
+    "Popularity By Professional Developer": "popularityProfessional",
 } as const;
 
 type CategoryDisplayProps = {
-    title: keyof typeof categoryLabels;
+    title: string;
     data1: DataInterface;
     data2: DataInterface;
     visible: boolean;
@@ -20,7 +20,7 @@ type CategoryDisplayProps = {
 
 export default function CategoryDisplay({ title, data1, data2, visible }: CategoryDisplayProps) {
     if (!visible) return <></>;
-    const key = categoryLabels[title] as ValueOf<typeof categoryLabels>;
+    const key = categoryLabels[title as keyof typeof categoryLabels] as ValueOf<typeof categoryLabels>;
 
     return (
         <div>
