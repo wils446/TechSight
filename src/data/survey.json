@@ -1,0 +1,1288 @@
+[
+    [
+        "JavaScript",
+        {
+            "name": "JavaScript",
+            "popularityAll": { "2020": { "value": 67.7 }, "2021": { "value": 64.96, "frequency": 53587 } },
+            "popularityProfessional": { "2020": { "value": 69.7 }, "2021": { "value": 68.62, "frequency": 39749 } },
+            "loved": { "2020": { "value": 58.3 }, "2021": { "value": 61.51, "frequency": 32964 } },
+            "wanted": { "2020": { "value": 18.5 }, "2021": { "value": 14.59, "frequency": 4279 } },
+            "income": { "2020": { "value": 53000 }, "2021": { "value": 54049, "frequency": 31506 } }
+        }
+    ],
+    [
+        "HTML/CSS",
+        {
+            "name": "HTML/CSS",
+            "popularityAll": { "2020": { "value": 63.1 }, "2021": { "value": 56.07, "frequency": 46259 } },
+            "popularityProfessional": { "2020": { "value": 62.4 }, "2021": { "value": 55.9, "frequency": 32380 } },
+            "loved": { "2020": { "value": 53.5 }, "2021": { "value": 60.19, "frequency": 27842 } },
+            "wanted": { "2020": { "value": 6.5 }, "2021": { "value": 4.67, "frequency": 1712 } },
+            "income": { "2020": { "value": 52000 }, "2021": { "value": 52980, "frequency": 25738 } }
+        }
+    ],
+    [
+        "SQL",
+        {
+            "name": "SQL",
+            "popularityAll": { "2020": { "value": 54.7 }, "2021": { "value": 47.08, "frequency": 38835 } },
+            "popularityProfessional": { "2020": { "value": 56.9 }, "2021": { "value": 50.73, "frequency": 29385 } },
+            "loved": { "2020": { "value": 56.6 }, "2021": { "value": 61.83, "frequency": 24011 } },
+            "wanted": { "2020": { "value": 8.2 }, "2021": { "value": 6.3, "frequency": 2775 } },
+            "income": { "2020": { "value": 54000 }, "2021": { "value": 56228, "frequency": 23791 } }
+        }
+    ],
+    [
+        "Python",
+        {
+            "name": "Python",
+            "popularityAll": { "2020": { "value": 44.1 }, "2021": { "value": 48.24, "frequency": 39792 } },
+            "popularityProfessional": { "2020": { "value": 41.6 }, "2021": { "value": 41.53, "frequency": 24055 } },
+            "loved": { "2020": { "value": 66.7 }, "2021": { "value": 67.83, "frequency": 26992 } },
+            "wanted": { "2020": { "value": 30 }, "2021": { "value": 19.04, "frequency": 8212 } },
+            "income": { "2020": { "value": 59000 }, "2021": { "value": 59454, "frequency": 19915 } }
+        }
+    ],
+    [
+        "Java",
+        {
+            "name": "Java",
+            "popularityAll": { "2020": { "value": 40.2 }, "2021": { "value": 35.35, "frequency": 29162 } },
+            "popularityProfessional": { "2020": { "value": 38.4 }, "2021": { "value": 34.51, "frequency": 19989 } },
+            "loved": { "2020": { "value": 44.1 }, "2021": { "value": 47.15, "frequency": 13749 } },
+            "wanted": { "2020": { "value": 8.8 }, "2021": { "value": 6.79, "frequency": 3648 } },
+            "income": { "2020": { "value": 50000 }, "2021": { "value": 51888, "frequency": 14916 } }
+        }
+    ],
+    [
+        "Bash/Shell/PowerShell",
+        {
+            "name": "Bash/Shell/PowerShell",
+            "popularityAll": { "2020": { "value": 33.1 }, "2021": { "value": 0, "frequency": 0 } },
+            "popularityProfessional": { "2020": { "value": 34.8 }, "2021": { "value": 0, "frequency": 0 } },
+            "loved": { "2020": { "value": 53.7 }, "2021": { "value": 0, "frequency": 0 } },
+            "wanted": { "2020": { "value": 3.9 }, "2021": { "value": 0, "frequency": 0 } },
+            "income": { "2020": { "value": 65000 }, "2021": { "value": 0, "frequency": 0 } }
+        }
+    ],
+    [
+        "C#",
+        {
+            "name": "C#",
+            "popularityAll": { "2020": { "value": 31.4 }, "2021": { "value": 27.86, "frequency": 22984 } },
+            "popularityProfessional": { "2020": { "value": 32.3 }, "2021": { "value": 29.81, "frequency": 17268 } },
+            "loved": { "2020": { "value": 59.7 }, "2021": { "value": 61.96, "frequency": 14241 } },
+            "wanted": { "2020": { "value": 7.3 }, "2021": { "value": 6.45, "frequency": 3865 } },
+            "income": { "2020": { "value": 57000 }, "2021": { "value": 58368, "frequency": 13704 } }
+        }
+    ],
+    [
+        "PHP",
+        {
+            "name": "PHP",
+            "popularityAll": { "2020": { "value": 26.2 }, "2021": { "value": 21.98, "frequency": 18130 } },
+            "popularityProfessional": { "2020": { "value": 25.8 }, "2021": { "value": 22.54, "frequency": 13056 } },
+            "loved": { "2020": { "value": 37.3 }, "2021": { "value": 40.239999999999995, "frequency": 7296 } },
+            "wanted": { "2020": { "value": 3.5 }, "2021": { "value": 2.55, "frequency": 1652 } },
+            "income": { "2020": { "value": 39000 }, "2021": { "value": 38916, "frequency": 10014 } }
+        }
+    ],
+    [
+        "TypeScript",
+        {
+            "name": "TypeScript",
+            "popularityAll": { "2020": { "value": 25.4 }, "2021": { "value": 30.19, "frequency": 24909 } },
+            "popularityProfessional": { "2020": { "value": 28.3 }, "2021": { "value": 36.42, "frequency": 21096 } },
+            "loved": { "2020": { "value": 67.1 }, "2021": { "value": 72.72999999999999, "frequency": 18117 } },
+            "wanted": { "2020": { "value": 17 }, "2021": { "value": 15.29, "frequency": 8867 } },
+            "income": { "2020": { "value": 57000 }, "2021": { "value": 59172, "frequency": 16670 } }
+        }
+    ],
+    [
+        "C++",
+        {
+            "name": "C++",
+            "popularityAll": { "2020": { "value": 23.9 }, "2021": { "value": 24.31, "frequency": 20057 } },
+            "popularityProfessional": { "2020": { "value": 20.5 }, "2021": { "value": 19.94, "frequency": 11553 } },
+            "loved": { "2020": { "value": 43.4 }, "2021": { "value": 49.24, "frequency": 9876 } },
+            "wanted": { "2020": { "value": 8.6 }, "2021": { "value": 8.8, "frequency": 5531 } },
+            "income": { "2020": { "value": 53000 }, "2021": { "value": 54049, "frequency": 8465 } }
+        }
+    ],
+    [
+        "C",
+        {
+            "name": "C",
+            "popularityAll": { "2020": { "value": 21.8 }, "2021": { "value": 21.01, "frequency": 17329 } },
+            "popularityProfessional": { "2020": { "value": 18.2 }, "2021": { "value": 16.64, "frequency": 9640 } },
+            "loved": { "2020": { "value": 33.1 }, "2021": { "value": 39.56, "frequency": 6855 } },
+            "wanted": { "2020": { "value": 4.3 }, "2021": { "value": 4.52, "frequency": 2965 } },
+            "income": { "2020": { "value": 50000 }, "2021": { "value": 53184, "frequency": 6925 } }
+        }
+    ],
+    [
+        "Go",
+        {
+            "name": "Go",
+            "popularityAll": { "2020": { "value": 8.8 }, "2021": { "value": 9.55, "frequency": 7879 } },
+            "popularityProfessional": { "2020": { "value": 9.4 }, "2021": { "value": 10.51, "frequency": 6088 } },
+            "loved": { "2020": { "value": 62.3 }, "2021": { "value": 62.739999999999995, "frequency": 4943 } },
+            "wanted": { "2020": { "value": 17.9 }, "2021": { "value": 14.54, "frequency": 10911 } },
+            "income": { "2020": { "value": 74000 }, "2021": { "value": 75669, "frequency": 5053 } }
+        }
+    ],
+    [
+        "Kotlin",
+        {
+            "name": "Kotlin",
+            "popularityAll": { "2020": { "value": 7.8 }, "2021": { "value": 8.32, "frequency": 6866 } },
+            "popularityProfessional": { "2020": { "value": 8 }, "2021": { "value": 9.09, "frequency": 5268 } },
+            "loved": { "2020": { "value": 62.9 }, "2021": { "value": 61.550000000000004, "frequency": 4226 } },
+            "wanted": { "2020": { "value": 12.6 }, "2021": { "value": 8.57, "frequency": 6519 } },
+            "income": { "2020": { "value": 54000 }, "2021": { "value": 55071, "frequency": 3935 } }
+        }
+    ],
+    [
+        "Ruby",
+        {
+            "name": "Ruby",
+            "popularityAll": { "2020": { "value": 7.1 }, "2021": { "value": 6.75, "frequency": 5569 } },
+            "popularityProfessional": { "2020": { "value": 7.5 }, "2021": { "value": 7.89, "frequency": 4572 } },
+            "loved": { "2020": { "value": 42.9 }, "2021": { "value": 53.239999999999995, "frequency": 2965 } },
+            "wanted": { "2020": { "value": 4.5 }, "2021": { "value": 2.6, "frequency": 2011 } },
+            "income": { "2020": { "value": 71000 }, "2021": { "value": 80000, "frequency": 3872 } }
+        }
+    ],
+    [
+        "Assembly",
+        {
+            "name": "Assembly",
+            "popularityAll": { "2020": { "value": 6.2 }, "2021": { "value": 5.61, "frequency": 4632 } },
+            "popularityProfessional": { "2020": { "value": 4.9 }, "2021": { "value": 4.07, "frequency": 2355 } },
+            "loved": { "2020": { "value": 29.4 }, "2021": { "value": 33.92, "frequency": 1571 } },
+            "wanted": { "2020": { "value": 2.6 }, "2021": { "value": 2.63, "frequency": 2062 } },
+            "income": { "2020": { "value": 53000 }, "2021": { "value": 55211, "frequency": 1651 } }
+        }
+    ],
+    [
+        "VBA",
+        {
+            "name": "VBA",
+            "popularityAll": { "2020": { "value": 6.1 }, "2021": { "value": 4.66, "frequency": 3847 } },
+            "popularityProfessional": { "2020": { "value": 6.2 }, "2021": { "value": 4.09, "frequency": 2370 } },
+            "loved": { "2020": { "value": 19.6 }, "2021": { "value": 20.61, "frequency": 793 } },
+            "wanted": { "2020": { "value": 0.7 }, "2021": { "value": 0.39, "frequency": 310 } },
+            "income": { "2020": { "value": 51000 }, "2021": { "value": 53825, "frequency": 2202 } }
+        }
+    ],
+    [
+        "Swift",
+        {
+            "name": "Swift",
+            "popularityAll": { "2020": { "value": 5.9 }, "2021": { "value": 5.1, "frequency": 4204 } },
+            "popularityProfessional": { "2020": { "value": 6.1 }, "2021": { "value": 5.64, "frequency": 3268 } },
+            "loved": { "2020": { "value": 59.5 }, "2021": { "value": 63.56, "frequency": 2672 } },
+            "wanted": { "2020": { "value": 6.6 }, "2021": { "value": 4.74, "frequency": 3731 } },
+            "income": { "2020": { "value": 58000 }, "2021": { "value": 58910, "frequency": 2472 } }
+        }
+    ],
+    [
+        "R",
+        {
+            "name": "R",
+            "popularityAll": { "2020": { "value": 5.7 }, "2021": { "value": 5.07, "frequency": 4185 } },
+            "popularityProfessional": { "2020": { "value": 5.5 }, "2021": { "value": 3.48, "frequency": 2016 } },
+            "loved": { "2020": { "value": 44.5 }, "2021": { "value": 44.230000000000004, "frequency": 1851 } },
+            "wanted": { "2020": { "value": 5.1 }, "2021": { "value": 2.82, "frequency": 2218 } },
+            "income": { "2020": { "value": 57000 }, "2021": { "value": 59454, "frequency": 2050 } }
+        }
+    ],
+    [
+        "Rust",
+        {
+            "name": "Rust",
+            "popularityAll": { "2020": { "value": 5.1 }, "2021": { "value": 7.03, "frequency": 5799 } },
+            "popularityProfessional": { "2020": { "value": 4.8 }, "2021": { "value": 6.4, "frequency": 3706 } },
+            "loved": { "2020": { "value": 86.1 }, "2021": { "value": 86.98, "frequency": 5044 } },
+            "wanted": { "2020": { "value": 14.6 }, "2021": { "value": 14.09, "frequency": 10864 } },
+            "income": { "2020": { "value": 74000 }, "2021": { "value": 77530, "frequency": 2938 } }
+        }
+    ],
+    [
+        "Objective-C",
+        {
+            "name": "Objective-C",
+            "popularityAll": { "2020": { "value": 4.1 }, "2021": { "value": 2.8, "frequency": 2310 } },
+            "popularityProfessional": { "2020": { "value": 4.4 }, "2021": { "value": 3.33, "frequency": 1927 } },
+            "loved": { "2020": { "value": 23.4 }, "2021": { "value": 26.93, "frequency": 622 } },
+            "wanted": { "2020": { "value": 1.8 }, "2021": { "value": 1, "frequency": 806 } },
+            "income": { "2020": { "value": 64000 }, "2021": { "value": 64859, "frequency": 1437 } }
+        }
+    ],
+    [
+        "Dart",
+        {
+            "name": "Dart",
+            "popularityAll": { "2020": { "value": 4 }, "2021": { "value": 6.02, "frequency": 4965 } },
+            "popularityProfessional": { "2020": { "value": 3.7 }, "2021": { "value": 5.97, "frequency": 3459 } },
+            "loved": { "2020": { "value": 62.1 }, "2021": { "value": 63.77, "frequency": 3166 } },
+            "wanted": { "2020": { "value": 6 }, "2021": { "value": 4.99, "frequency": 3892 } },
+            "income": { "2020": { "value": 37000 }, "2021": { "value": 32986, "frequency": 2423 } }
+        }
+    ],
+    [
+        "Scala",
+        {
+            "name": "Scala",
+            "popularityAll": { "2020": { "value": 3.6 }, "2021": { "value": 2.6, "frequency": 2148 } },
+            "popularityProfessional": { "2020": { "value": 3.9 }, "2021": { "value": 3.06, "frequency": 1775 } },
+            "loved": { "2020": { "value": 53.2 }, "2021": { "value": 52.28, "frequency": 1123 } },
+            "wanted": { "2020": { "value": 4.2 }, "2021": { "value": 2.57, "frequency": 2075 } },
+            "income": { "2020": { "value": 76000 }, "2021": { "value": 77832, "frequency": 1411 } }
+        }
+    ],
+    [
+        "Perl",
+        {
+            "name": "Perl",
+            "popularityAll": { "2020": { "value": 3.1 }, "2021": { "value": 2.46, "frequency": 2028 } },
+            "popularityProfessional": { "2020": { "value": 3.3 }, "2021": { "value": 2.42, "frequency": 1404 } },
+            "loved": { "2020": { "value": 28.6 }, "2021": { "value": 36, "frequency": 730 } },
+            "wanted": { "2020": { "value": 1.1 }, "2021": { "value": 0.58, "frequency": 470 } },
+            "income": { "2020": { "value": 76000 }, "2021": { "value": 80000, "frequency": 1227 } }
+        }
+    ],
+    [
+        "Haskell",
+        {
+            "name": "Haskell",
+            "popularityAll": { "2020": { "value": 2.1 }, "2021": { "value": 2.12, "frequency": 1749 } },
+            "popularityProfessional": { "2020": { "value": 1.8 }, "2021": { "value": 1.7, "frequency": 986 } },
+            "loved": { "2020": { "value": 51.7 }, "2021": { "value": 53, "frequency": 927 } },
+            "wanted": { "2020": { "value": 4.2 }, "2021": { "value": 3.14, "frequency": 2551 } },
+            "income": { "2020": { "value": 60000 }, "2021": { "value": 67021, "frequency": 708 } }
+        }
+    ],
+    [
+        "Julia",
+        {
+            "name": "Julia",
+            "popularityAll": { "2020": { "value": 0.9 }, "2021": { "value": 1.29, "frequency": 1068 } },
+            "popularityProfessional": { "2020": { "value": 0.9 }, "2021": { "value": 0.86, "frequency": 498 } },
+            "loved": { "2020": { "value": 62.2 }, "2021": { "value": 70.69, "frequency": 755 } },
+            "wanted": { "2020": { "value": 2.3 }, "2021": { "value": 2.1, "frequency": 1717 } },
+            "income": { "2020": { "value": 59000 }, "2021": { "value": 65228, "frequency": 475 } }
+        }
+    ],
+    [
+        "MySQL",
+        {
+            "name": "MySQL",
+            "popularityAll": { "2020": { "value": 55.6 }, "2021": { "value": 50.18, "frequency": 35289 } },
+            "popularityProfessional": { "2020": { "value": 53.5 }, "2021": { "value": 48.19, "frequency": 25165 } },
+            "loved": { "2020": { "value": 47.1 }, "2021": { "value": 51.349999999999994, "frequency": 18121 } },
+            "wanted": { "2020": { "value": 9 }, "2021": { "value": 9.76, "frequency": 3635 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 43404, "frequency": 19324 } }
+        }
+    ],
+    [
+        "PostgreSQL",
+        {
+            "name": "PostgreSQL",
+            "popularityAll": { "2020": { "value": 36.1 }, "2021": { "value": 40.42, "frequency": 28424 } },
+            "popularityProfessional": { "2020": { "value": 38.5 }, "2021": { "value": 44.08, "frequency": 23019 } },
+            "loved": { "2020": { "value": 63.9 }, "2021": { "value": 70.39999999999999, "frequency": 20010 } },
+            "wanted": { "2020": { "value": 15.6 }, "2021": { "value": 17.99, "frequency": 7931 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 59454, "frequency": 18784 } }
+        }
+    ],
+    [
+        "Microsoft SQL Server",
+        {
+            "name": "Microsoft SQL Server",
+            "popularityAll": { "2020": { "value": 33 }, "2021": { "value": 26.87, "frequency": 18896 } },
+            "popularityProfessional": { "2020": { "value": 34.8 }, "2021": { "value": 29.43, "frequency": 15366 } },
+            "loved": { "2020": { "value": 50.9 }, "2021": { "value": 54.08, "frequency": 10219 } },
+            "wanted": { "2020": { "value": 3.7 }, "2021": { "value": 3.11, "frequency": 1666 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 58167, "frequency": 12692 } }
+        }
+    ],
+    [
+        "SQLite",
+        {
+            "name": "SQLite",
+            "popularityAll": { "2020": { "value": 31.2 }, "2021": { "value": 32.18, "frequency": 22634 } },
+            "popularityProfessional": { "2020": { "value": 30.6 }, "2021": { "value": 30.86, "frequency": 16113 } },
+            "loved": { "2020": { "value": 49.4 }, "2021": { "value": 54.43, "frequency": 12320 } },
+            "wanted": { "2020": { "value": 7.7 }, "2021": { "value": 7.74, "frequency": 3861 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 51704, "frequency": 12496 } }
+        }
+    ],
+    [
+        "MongoDB",
+        {
+            "name": "MongoDB",
+            "popularityAll": { "2020": { "value": 26.4 }, "2021": { "value": 27.7, "frequency": 19479 } },
+            "popularityProfessional": { "2020": { "value": 26.7 }, "2021": { "value": 28.03, "frequency": 14635 } },
+            "loved": { "2020": { "value": 56 }, "2021": { "value": 60.28, "frequency": 11742 } },
+            "wanted": { "2020": { "value": 19.4 }, "2021": { "value": 17.86, "frequency": 9475 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 45401, "frequency": 11150 } }
+        }
+    ],
+    [
+        "Redis",
+        {
+            "name": "Redis",
+            "popularityAll": { "2020": { "value": 18.3 }, "2021": { "value": 20.69, "frequency": 14552 } },
+            "popularityProfessional": { "2020": { "value": 20.5 }, "2021": { "value": 24.51, "frequency": 12800 } },
+            "loved": { "2020": { "value": 66.5 }, "2021": { "value": 70.71, "frequency": 10289 } },
+            "wanted": { "2020": { "value": 12.2 }, "2021": { "value": 12.58, "frequency": 7294 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 64548, "frequency": 10453 } }
+        }
+    ],
+    [
+        "MariaDB",
+        {
+            "name": "MariaDB",
+            "popularityAll": { "2020": { "value": 16.8 }, "2021": { "value": 17.19, "frequency": 12088 } },
+            "popularityProfessional": { "2020": { "value": 16.9 }, "2021": { "value": 17.14, "frequency": 8948 } },
+            "loved": { "2020": { "value": 51.3 }, "2021": { "value": 54.75, "frequency": 6618 } },
+            "wanted": { "2020": { "value": 3.7 }, "2021": { "value": 2.93, "frequency": 1772 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 45678, "frequency": 7200 } }
+        }
+    ],
+    [
+        "Oracle",
+        {
+            "name": "Oracle",
+            "popularityAll": { "2020": { "value": 16.5 }, "2021": { "value": 12.61, "frequency": 8868 } },
+            "popularityProfessional": { "2020": { "value": 16.3 }, "2021": { "value": 12.89, "frequency": 6731 } },
+            "loved": { "2020": { "value": 33.2 }, "2021": { "value": 35.18, "frequency": 3120 } },
+            "wanted": { "2020": { "value": 4.2 }, "2021": { "value": 2.8, "frequency": 1781 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 48644, "frequency": 5235 } }
+        }
+    ],
+    [
+        "Firebase",
+        {
+            "name": "Firebase",
+            "popularityAll": { "2020": { "value": 14.4 }, "2021": { "value": 16.17, "frequency": 11373 } },
+            "popularityProfessional": { "2020": { "value": 13.9 }, "2021": { "value": 15.89, "frequency": 8298 } },
+            "loved": { "2020": { "value": 54.9 }, "2021": { "value": 56.220000000000006, "frequency": 6394 } },
+            "wanted": { "2020": { "value": 9.2 }, "2021": { "value": 8.09, "frequency": 4945 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 37834, "frequency": 5976 } }
+        }
+    ],
+    [
+        "Elasticsearch",
+        {
+            "name": "Elasticsearch",
+            "popularityAll": { "2020": { "value": 13.8 }, "2021": { "value": 13.27, "frequency": 9331 } },
+            "popularityProfessional": { "2020": { "value": 15.5 }, "2021": { "value": 15.72, "frequency": 8208 } },
+            "loved": { "2020": { "value": 58.7 }, "2021": { "value": 56.699999999999996, "frequency": 5291 } },
+            "wanted": { "2020": { "value": 12.2 }, "2021": { "value": 10.52, "frequency": 6646 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 67021, "frequency": 6923 } }
+        }
+    ],
+    [
+        "DynamoDB",
+        {
+            "name": "DynamoDB",
+            "popularityAll": { "2020": { "value": 7.1 }, "2021": { "value": 7.3, "frequency": 5137 } },
+            "popularityProfessional": { "2020": { "value": 7.8 }, "2021": { "value": 8.7, "frequency": 4544 } },
+            "loved": { "2020": { "value": 50.7 }, "2021": { "value": 55.28999999999999, "frequency": 2840 } },
+            "wanted": { "2020": { "value": 5.5 }, "2021": { "value": 5.03, "frequency": 3392 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 80936, "frequency": 3803 } }
+        }
+    ],
+    [
+        "Cassandra",
+        {
+            "name": "Cassandra",
+            "popularityAll": { "2020": { "value": 3.3 }, "2021": { "value": 2.66, "frequency": 1873 } },
+            "popularityProfessional": { "2020": { "value": 3.6 }, "2021": { "value": 2.91, "frequency": 1522 } },
+            "loved": { "2020": { "value": 43.6 }, "2021": { "value": 42.66, "frequency": 799 } },
+            "wanted": { "2020": { "value": 6.2 }, "2021": { "value": 5.14, "frequency": 3632 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 64930, "frequency": 1180 } }
+        }
+    ],
+    [
+        "IBM DB2",
+        {
+            "name": "IBM DB2",
+            "popularityAll": { "2020": { "value": 2.9 }, "2021": { "value": 2.04, "frequency": 1438 } },
+            "popularityProfessional": { "2020": { "value": 2.9 }, "2021": { "value": 2.14, "frequency": 1115 } },
+            "loved": { "2020": { "value": 23.3 }, "2021": { "value": 24.62, "frequency": 354 } },
+            "wanted": { "2020": { "value": 1.1 }, "2021": { "value": 0.57, "frequency": 407 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 64044, "frequency": 945 } }
+        }
+    ],
+    [
+        "Couchbase",
+        {
+            "name": "Couchbase",
+            "popularityAll": { "2020": { "value": 1.9 }, "2021": { "value": 1.57, "frequency": 1106 } },
+            "popularityProfessional": { "2020": { "value": 2 }, "2021": { "value": 1.72, "frequency": 897 } },
+            "loved": { "2020": { "value": 33.2 }, "2021": { "value": 37.88, "frequency": 419 } },
+            "wanted": { "2020": { "value": 2.4 }, "2021": { "value": 1.88, "frequency": 1345 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 63018, "frequency": 704 } }
+        }
+    ],
+    [
+        "Linux",
+        {
+            "name": "Linux",
+            "popularityAll": { "2020": { "value": 55 }, "2021": { "value": 0, "frequency": 0 } },
+            "popularityProfessional": { "2020": { "value": 55.9 }, "2021": { "value": 0, "frequency": 0 } },
+            "loved": { "2020": { "value": 76.9 }, "2021": { "value": 0, "frequency": 0 } },
+            "wanted": { "2020": { "value": 16.6 }, "2021": { "value": 0, "frequency": 0 } }
+        }
+    ],
+    [
+        "Windows",
+        {
+            "name": "Windows",
+            "popularityAll": { "2020": { "value": 53.1 }, "2021": { "value": 0, "frequency": 0 } },
+            "popularityProfessional": { "2020": { "value": 51.2 }, "2021": { "value": 0, "frequency": 0 } },
+            "loved": { "2020": { "value": 57.5 }, "2021": { "value": 0, "frequency": 0 } },
+            "wanted": { "2020": { "value": 4.7 }, "2021": { "value": 0, "frequency": 0 } }
+        }
+    ],
+    [
+        "Docker",
+        {
+            "name": "Docker",
+            "popularityAll": { "2020": { "value": 35 }, "2021": { "value": 48.85, "frequency": 35644 } },
+            "popularityProfessional": { "2020": { "value": 39.2 }, "2021": { "value": 48.85, "frequency": 35644 } },
+            "loved": { "2020": { "value": 73.6 }, "2021": { "value": 76.51, "frequency": 27271 } },
+            "wanted": { "2020": { "value": 24.5 }, "2021": { "value": 29.7, "frequency": 11926 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 63469, "frequency": 24507 } }
+        }
+    ],
+    [
+        "AWS",
+        {
+            "name": "AWS",
+            "popularityAll": { "2020": { "value": 26.7 }, "2021": { "value": 54.22, "frequency": 29138 } },
+            "popularityProfessional": { "2020": { "value": 29.8 }, "2021": { "value": 59.11, "frequency": 24336 } },
+            "loved": { "2020": { "value": 66.4 }, "2021": { "value": 66.55, "frequency": 19392 } },
+            "wanted": { "2020": { "value": 20.2 }, "2021": { "value": 40.35, "frequency": 12660 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 66810, "frequency": 20108 } }
+        }
+    ],
+    [
+        "Android",
+        {
+            "name": "Android",
+            "popularityAll": { "2020": { "value": 26.2 }, "2021": { "value": 0, "frequency": 0 } },
+            "popularityProfessional": { "2020": { "value": 24.4 }, "2021": { "value": 0, "frequency": 0 } },
+            "loved": { "2020": { "value": 57.1 }, "2021": { "value": 0, "frequency": 0 } },
+            "wanted": { "2020": { "value": 16 }, "2021": { "value": 0, "frequency": 0 } }
+        }
+    ],
+    [
+        "MacOS",
+        {
+            "name": "MacOS",
+            "popularityAll": { "2020": { "value": 24 }, "2021": { "value": 0, "frequency": 0 } },
+            "popularityProfessional": { "2020": { "value": 25.6 }, "2021": { "value": 0, "frequency": 0 } },
+            "loved": { "2020": { "value": 64.4 }, "2021": { "value": 0, "frequency": 0 } },
+            "wanted": { "2020": { "value": 7.7 }, "2021": { "value": 0, "frequency": 0 } }
+        }
+    ],
+    [
+        "Raspberry Pi",
+        {
+            "name": "Raspberry Pi",
+            "popularityAll": { "2020": { "value": 14.9 }, "2021": { "value": 0, "frequency": 0 } },
+            "popularityProfessional": { "2020": { "value": 14 }, "2021": { "value": 0, "frequency": 0 } },
+            "loved": { "2020": { "value": 66.1 }, "2021": { "value": 0, "frequency": 0 } },
+            "wanted": { "2020": { "value": 12.6 }, "2021": { "value": 0, "frequency": 0 } }
+        }
+    ],
+    [
+        "Microsoft Azure",
+        {
+            "name": "Microsoft Azure",
+            "popularityAll": { "2020": { "value": 14.5 }, "2021": { "value": 30.77, "frequency": 16540 } },
+            "popularityProfessional": { "2020": { "value": 15.9 }, "2021": { "value": 32.49, "frequency": 13376 } },
+            "loved": { "2020": { "value": 62.2 }, "2021": { "value": 59.230000000000004, "frequency": 9796 } },
+            "wanted": { "2020": { "value": 9.9 }, "2021": { "value": 21.12, "frequency": 9289 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 64630, "frequency": 11251 } }
+        }
+    ],
+    [
+        "WordPress",
+        {
+            "name": "WordPress",
+            "popularityAll": { "2020": { "value": 14.2 }, "2021": { "value": 0, "frequency": 0 } },
+            "popularityProfessional": { "2020": { "value": 13.9 }, "2021": { "value": 0, "frequency": 0 } },
+            "loved": { "2020": { "value": 33 }, "2021": { "value": 0, "frequency": 0 } },
+            "wanted": { "2020": { "value": 2.6 }, "2021": { "value": 0, "frequency": 0 } }
+        }
+    ],
+    [
+        "Google Cloud Platform",
+        {
+            "name": "Google Cloud Platform",
+            "popularityAll": { "2020": { "value": 14.1 }, "2021": { "value": 31.05, "frequency": 16687 } },
+            "popularityProfessional": { "2020": { "value": 14.5 }, "2021": { "value": 29.66, "frequency": 12212 } },
+            "loved": { "2020": { "value": 60.9 }, "2021": { "value": 59.650000000000006, "frequency": 9953 } },
+            "wanted": { "2020": { "value": 14 }, "2021": { "value": 22.56, "frequency": 9886 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 55600, "frequency": 9815 } }
+        }
+    ],
+    [
+        "iOS",
+        {
+            "name": "iOS",
+            "popularityAll": { "2020": { "value": 12.2 }, "2021": { "value": 0, "frequency": 0 } },
+            "popularityProfessional": { "2020": { "value": 12.6 }, "2021": { "value": 0, "frequency": 0 } },
+            "loved": { "2020": { "value": 61.1 }, "2021": { "value": 0, "frequency": 0 } },
+            "wanted": { "2020": { "value": 10.4 }, "2021": { "value": 0, "frequency": 0 } }
+        }
+    ],
+    [
+        "Kubernetes",
+        {
+            "name": "Kubernetes",
+            "popularityAll": { "2020": { "value": 11.5 }, "2021": { "value": 16.6, "frequency": 12115 } },
+            "popularityProfessional": { "2020": { "value": 12.9 }, "2021": { "value": 16.6, "frequency": 12115 } },
+            "loved": { "2020": { "value": 71.1 }, "2021": { "value": 72.48, "frequency": 8781 } },
+            "wanted": { "2020": { "value": 18.5 }, "2021": { "value": 21.97, "frequency": 13992 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 75000, "frequency": 8804 } }
+        }
+    ],
+    [
+        "Heroku",
+        {
+            "name": "Heroku",
+            "popularityAll": { "2020": { "value": 11.1 }, "2021": { "value": 24, "frequency": 12897 } },
+            "popularityProfessional": { "2020": { "value": 10.7 }, "2021": { "value": 21.3, "frequency": 8768 } },
+            "loved": { "2020": { "value": 46.2 }, "2021": { "value": 48.17, "frequency": 6212 } },
+            "wanted": { "2020": { "value": 4.4 }, "2021": { "value": 7.31, "frequency": 3482 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 45000, "frequency": 6588 } }
+        }
+    ],
+    [
+        "Arduino",
+        {
+            "name": "Arduino",
+            "popularityAll": { "2020": { "value": 10.6 }, "2021": { "value": 0, "frequency": 0 } },
+            "popularityProfessional": { "2020": { "value": 8.6 }, "2021": { "value": 0, "frequency": 0 } },
+            "loved": { "2020": { "value": 53.2 }, "2021": { "value": 0, "frequency": 0 } },
+            "wanted": { "2020": { "value": 7.4 }, "2021": { "value": 0, "frequency": 0 } }
+        }
+    ],
+    [
+        "Slack Apps and Integrations",
+        {
+            "name": "Slack Apps and Integrations",
+            "popularityAll": { "2020": { "value": 7.3 }, "2021": { "value": 0, "frequency": 0 } },
+            "popularityProfessional": { "2020": { "value": 8 }, "2021": { "value": 0, "frequency": 0 } },
+            "loved": { "2020": { "value": 51 }, "2021": { "value": 0, "frequency": 0 } },
+            "wanted": { "2020": { "value": 3.3 }, "2021": { "value": 0, "frequency": 0 } }
+        }
+    ],
+    [
+        "IBM Cloud or Watson",
+        {
+            "name": "IBM Cloud or Watson",
+            "popularityAll": { "2020": { "value": 1.6 }, "2021": { "value": 2.55, "frequency": 1373 } },
+            "popularityProfessional": { "2020": { "value": 1.5 }, "2021": { "value": 2.09, "frequency": 861 } },
+            "loved": { "2020": { "value": 37.8 }, "2021": { "value": 37.29, "frequency": 512 } },
+            "wanted": { "2020": { "value": 2.6 }, "2021": { "value": 3.24, "frequency": 1914 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 52942, "frequency": 637 } }
+        }
+    ],
+    [
+        "jQuery",
+        {
+            "name": "jQuery",
+            "popularityAll": { "2020": { "value": 43.3 }, "2021": { "value": 34.42, "frequency": 21693 } },
+            "popularityProfessional": { "2020": { "value": 43.3 }, "2021": { "value": 34.52, "frequency": 16562 } },
+            "loved": { "2020": { "value": 36.5 }, "2021": { "value": 35.29, "frequency": 7656 } },
+            "wanted": { "2020": { "value": 4.3 }, "2021": { "value": 3.67, "frequency": 1635 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 45797, "frequency": 12808 } }
+        }
+    ],
+    [
+        "React.js",
+        {
+            "name": "React.js",
+            "popularityAll": { "2020": { "value": 35.9 }, "2021": { "value": 40.14, "frequency": 25296 } },
+            "popularityProfessional": { "2020": { "value": 36.8 }, "2021": { "value": 41.4, "frequency": 19864 } },
+            "loved": { "2020": { "value": 68.9 }, "2021": { "value": 69.28, "frequency": 17525 } },
+            "wanted": { "2020": { "value": 22.4 }, "2021": { "value": 25.12, "frequency": 10275 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 58128, "frequency": 15540 } }
+        }
+    ],
+    [
+        "Angular",
+        {
+            "name": "Angular",
+            "popularityAll": { "2020": { "value": 25.1 }, "2021": { "value": 22.96, "frequency": 14471 } },
+            "popularityProfessional": { "2020": { "value": 26.5 }, "2021": { "value": 26.23, "frequency": 12584 } },
+            "loved": { "2020": { "value": 54 }, "2021": { "value": 55.82, "frequency": 8077 } },
+            "wanted": { "2020": { "value": 10.6 }, "2021": { "value": 8.47, "frequency": 4380 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 48852, "frequency": 9613 } }
+        }
+    ],
+    [
+        "ASP.NET",
+        {
+            "name": "ASP.NET",
+            "popularityAll": { "2020": { "value": 21.9 }, "2021": { "value": 15.74, "frequency": 9918 } },
+            "popularityProfessional": { "2020": { "value": 22.9 }, "2021": { "value": 17.36, "frequency": 8329 } },
+            "loved": { "2020": { "value": 36.9 }, "2021": { "value": 36.4, "frequency": 3610 } },
+            "wanted": { "2020": { "value": 2.9 }, "2021": { "value": 2.39, "frequency": 1346 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 56220, "frequency": 6584 } }
+        }
+    ],
+    [
+        "Express",
+        {
+            "name": "Express",
+            "popularityAll": { "2020": { "value": 21.2 }, "2021": { "value": 23.82, "frequency": 15010 } },
+            "popularityProfessional": { "2020": { "value": 20.9 }, "2021": { "value": 23.6, "frequency": 11321 } },
+            "loved": { "2020": { "value": 61.9 }, "2021": { "value": 62.07, "frequency": 9317 } },
+            "wanted": { "2020": { "value": 5.3 }, "2021": { "value": 5.84, "frequency": 2989 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 47850, "frequency": 8640 } }
+        }
+    ],
+    [
+        "ASP.NET Core",
+        {
+            "name": "ASP.NET Core",
+            "popularityAll": { "2020": { "value": 19.1 }, "2021": { "value": 18.1, "frequency": 11404 } },
+            "popularityProfessional": { "2020": { "value": 20.3 }, "2021": { "value": 20.3, "frequency": 9740 } },
+            "loved": { "2020": { "value": 70.7 }, "2021": { "value": 0, "frequency": 0 } },
+            "wanted": { "2020": { "value": 6.6 }, "2021": { "value": 5.2, "frequency": 2851 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 60744, "frequency": 7876 } }
+        }
+    ],
+    [
+        "Vue.js",
+        {
+            "name": "Vue.js",
+            "popularityAll": { "2020": { "value": 17.3 }, "2021": { "value": 18.97, "frequency": 11954 } },
+            "popularityProfessional": { "2020": { "value": 17.8 }, "2021": { "value": 20.09, "frequency": 9638 } },
+            "loved": { "2020": { "value": 66 }, "2021": { "value": 64.41, "frequency": 7699 } },
+            "wanted": { "2020": { "value": 16.4 }, "2021": { "value": 16.69, "frequency": 9054 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 50000, "frequency": 7598 } }
+        }
+    ],
+    [
+        "Spring",
+        {
+            "name": "Spring",
+            "popularityAll": { "2020": { "value": 16.4 }, "2021": { "value": 14.56, "frequency": 9177 } },
+            "popularityProfessional": { "2020": { "value": 17.4 }, "2021": { "value": 16.48, "frequency": 7906 } },
+            "loved": { "2020": { "value": 57.7 }, "2021": { "value": 59.81999999999999, "frequency": 5490 } },
+            "wanted": { "2020": { "value": 4.4 }, "2021": { "value": 3.89, "frequency": 2219 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 51888, "frequency": 5984 } }
+        }
+    ],
+    [
+        "Angular.js",
+        {
+            "name": "Angular.js",
+            "popularityAll": { "2020": { "value": 16.1 }, "2021": { "value": 11.49, "frequency": 7242 } },
+            "popularityProfessional": { "2020": { "value": 17 }, "2021": { "value": 12.71, "frequency": 6100 } },
+            "loved": { "2020": { "value": 24.1 }, "2021": { "value": 23.18, "frequency": 1679 } },
+            "wanted": { "2020": { "value": 7.7 }, "2021": { "value": 5.8, "frequency": 3417 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 49450, "frequency": 4649 } }
+        }
+    ],
+    [
+        "Django",
+        {
+            "name": "Django",
+            "popularityAll": { "2020": { "value": 14.2 }, "2021": { "value": 14.99, "frequency": 9446 } },
+            "popularityProfessional": { "2020": { "value": 13.2 }, "2021": { "value": 13.02, "frequency": 6245 } },
+            "loved": { "2020": { "value": 55.3 }, "2021": { "value": 55.279999999999994, "frequency": 5222 } },
+            "wanted": { "2020": { "value": 9.4 }, "2021": { "value": 9.21, "frequency": 5230 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 45379, "frequency": 4778 } }
+        }
+    ],
+    [
+        "Flask",
+        {
+            "name": "Flask",
+            "popularityAll": { "2020": { "value": 14.2 }, "2021": { "value": 16.14, "frequency": 10174 } },
+            "popularityProfessional": { "2020": { "value": 13.6 }, "2021": { "value": 13.79, "frequency": 6615 } },
+            "loved": { "2020": { "value": 54.4 }, "2021": { "value": 51.04, "frequency": 5193 } },
+            "wanted": { "2020": { "value": 5.4 }, "2021": { "value": 5.89, "frequency": 3299 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 54876, "frequency": 5349 } }
+        }
+    ],
+    [
+        "Laravel",
+        {
+            "name": "Laravel",
+            "popularityAll": { "2020": { "value": 11.1 }, "2021": { "value": 10.12, "frequency": 6377 } },
+            "popularityProfessional": { "2020": { "value": 11.1 }, "2021": { "value": 10.89, "frequency": 5226 } },
+            "loved": { "2020": { "value": 51.4 }, "2021": { "value": 53.790000000000006, "frequency": 3430 } },
+            "wanted": { "2020": { "value": 3.5 }, "2021": { "value": 2.67, "frequency": 1595 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 29196, "frequency": 3881 } }
+        }
+    ],
+    [
+        "Ruby on Rails",
+        {
+            "name": "Ruby on Rails",
+            "popularityAll": { "2020": { "value": 7 }, "2021": { "value": 7.04, "frequency": 4438 } },
+            "popularityProfessional": { "2020": { "value": 7.2 }, "2021": { "value": 7.89, "frequency": 3786 } },
+            "loved": { "2020": { "value": 49.3 }, "2021": { "value": 57.550000000000004, "frequency": 2554 } },
+            "wanted": { "2020": { "value": 4.4 }, "2021": { "value": 3.28, "frequency": 2028 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 77556, "frequency": 3220 } }
+        }
+    ],
+    [
+        "Symfony",
+        {
+            "name": "Symfony",
+            "popularityAll": { "2020": { "value": 4.4 }, "2021": { "value": 3.85, "frequency": 2427 } },
+            "popularityProfessional": { "2020": { "value": 4.5 }, "2021": { "value": 4.25, "frequency": 2039 } },
+            "loved": { "2020": { "value": 45.6 }, "2021": { "value": 47.589999999999996, "frequency": 1155 } },
+            "wanted": { "2020": { "value": 1.5 }, "2021": { "value": 1.14, "frequency": 727 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 45396, "frequency": 1596 } }
+        }
+    ],
+    [
+        "Gatsby",
+        {
+            "name": "Gatsby",
+            "popularityAll": { "2020": { "value": 4 }, "2021": { "value": 3.97, "frequency": 2501 } },
+            "popularityProfessional": { "2020": { "value": 4.1 }, "2021": { "value": 4.27, "frequency": 2048 } },
+            "loved": { "2020": { "value": 60.7 }, "2021": { "value": 48.66, "frequency": 1217 } },
+            "wanted": { "2020": { "value": 3.5 }, "2021": { "value": 2.74, "frequency": 1747 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 60129, "frequency": 1645 } }
+        }
+    ],
+    [
+        "Drupal",
+        {
+            "name": "Drupal",
+            "popularityAll": { "2020": { "value": 3.2 }, "2021": { "value": 2.39, "frequency": 1508 } },
+            "popularityProfessional": { "2020": { "value": 3.3 }, "2021": { "value": 2.46, "frequency": 1182 } },
+            "loved": { "2020": { "value": 25.5 }, "2021": { "value": 24.73, "frequency": 373 } },
+            "wanted": { "2020": { "value": 1 }, "2021": { "value": 0.57, "frequency": 370 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 51429, "frequency": 961 } }
+        }
+    ],
+    [
+        "Node.js",
+        {
+            "name": "Node.js",
+            "popularityAll": { "2020": { "value": 51.4 }, "2021": { "value": 33.91, "frequency": 27975 } },
+            "popularityProfessional": { "2020": { "value": 51.9 }, "2021": { "value": 36.19, "frequency": 20965 } },
+            "loved": { "2020": { "value": 66.8 }, "2021": { "value": 63.22, "frequency": 17686 } },
+            "wanted": { "2020": { "value": 18.1 }, "2021": { "value": 11.9, "frequency": 6536 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 54672, "frequency": 16443 } }
+        }
+    ],
+    [
+        ".NET",
+        {
+            "name": ".NET",
+            "popularityAll": { "2020": { "value": 35.1 }, "2021": { "value": 0, "frequency": 0 } },
+            "popularityProfessional": { "2020": { "value": 35.9 }, "2021": { "value": 0, "frequency": 0 } },
+            "loved": { "2020": { "value": 47.5 }, "2021": { "value": 0, "frequency": 0 } },
+            "wanted": { "2020": { "value": 3.8 }, "2021": { "value": 0, "frequency": 0 } }
+        }
+    ],
+    [
+        ".NET Core",
+        {
+            "name": ".NET Core",
+            "popularityAll": { "2020": { "value": 26.7 }, "2021": { "value": 0, "frequency": 0 } },
+            "popularityProfessional": { "2020": { "value": 27.9 }, "2021": { "value": 0, "frequency": 0 } },
+            "loved": { "2020": { "value": 71.5 }, "2021": { "value": 0, "frequency": 0 } },
+            "wanted": { "2020": { "value": 8.3 }, "2021": { "value": 0, "frequency": 0 } }
+        }
+    ],
+    [
+        "Pandas",
+        {
+            "name": "Pandas",
+            "popularityAll": { "2020": { "value": 15.5 }, "2021": { "value": 28.12, "frequency": 13664 } },
+            "popularityProfessional": { "2020": { "value": 14.7 }, "2021": { "value": 23.56, "frequency": 8054 } },
+            "loved": { "2020": { "value": 68.4 }, "2021": { "value": 66.94, "frequency": 9146 } },
+            "wanted": { "2020": { "value": 4.8 }, "2021": { "value": 8.34, "frequency": 3720 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 54049, "frequency": 6841 } }
+        }
+    ],
+    [
+        "TensorFlow",
+        {
+            "name": "TensorFlow",
+            "popularityAll": { "2020": { "value": 11.5 }, "2021": { "value": 16.53, "frequency": 8034 } },
+            "popularityProfessional": { "2020": { "value": 10.4 }, "2021": { "value": 14.1, "frequency": 4818 } },
+            "loved": { "2020": { "value": 65.2 }, "2021": { "value": 62.03999999999999, "frequency": 4984 } },
+            "wanted": { "2020": { "value": 17.2 }, "2021": { "value": 21.37, "frequency": 10736 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 50000, "frequency": 3660 } }
+        }
+    ],
+    [
+        "React Native",
+        {
+            "name": "React Native",
+            "popularityAll": { "2020": { "value": 11.5 }, "2021": { "value": 14.51, "frequency": 7051 } },
+            "popularityProfessional": { "2020": { "value": 11.8 }, "2021": { "value": 16.48, "frequency": 5632 } },
+            "loved": { "2020": { "value": 57.9 }, "2021": { "value": 58.08, "frequency": 4095 } },
+            "wanted": { "2020": { "value": 14 }, "2021": { "value": 17.75, "frequency": 9096 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 44160, "frequency": 4162 } }
+        }
+    ],
+    [
+        "Unity 3D",
+        {
+            "name": "Unity 3D",
+            "popularityAll": { "2020": { "value": 10.9 }, "2021": { "value": 9.88, "frequency": 7206 } },
+            "popularityProfessional": { "2020": { "value": 8.7 }, "2021": { "value": 9.88, "frequency": 7206 } },
+            "loved": { "2020": { "value": 56 }, "2021": { "value": 54.230000000000004, "frequency": 3908 } },
+            "wanted": { "2020": { "value": 9.2 }, "2021": { "value": 7.6, "frequency": 5215 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 45396, "frequency": 2749 } }
+        }
+    ],
+    [
+        "Ansible",
+        {
+            "name": "Ansible",
+            "popularityAll": { "2020": { "value": 7.3 }, "2021": { "value": 7.68, "frequency": 5607 } },
+            "popularityProfessional": { "2020": { "value": 8.1 }, "2021": { "value": 7.68, "frequency": 5607 } },
+            "loved": { "2020": { "value": 58.5 }, "2021": { "value": 55.98, "frequency": 3139 } },
+            "wanted": { "2020": { "value": 3.3 }, "2021": { "value": 4.21, "frequency": 2954 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 72000, "frequency": 3983 } }
+        }
+    ],
+    [
+        "Flutter",
+        {
+            "name": "Flutter",
+            "popularityAll": { "2020": { "value": 7.2 }, "2021": { "value": 13.55, "frequency": 6586 } },
+            "popularityProfessional": { "2020": { "value": 6.6 }, "2021": { "value": 13.35, "frequency": 4565 } },
+            "loved": { "2020": { "value": 68.8 }, "2021": { "value": 68.17, "frequency": 4490 } },
+            "wanted": { "2020": { "value": 10.7 }, "2021": { "value": 16.43, "frequency": 8496 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 32429, "frequency": 3224 } }
+        }
+    ],
+    [
+        "Teraform",
+        {
+            "name": "Teraform",
+            "popularityAll": { "2020": { "value": 6.2 }, "2021": { "value": 0, "frequency": 0 } },
+            "popularityProfessional": { "2020": { "value": 7 }, "2021": { "value": 0, "frequency": 0 } },
+            "loved": { "2020": { "value": 68 }, "2021": { "value": 0, "frequency": 0 } },
+            "wanted": { "2020": { "value": 4.3 }, "2021": { "value": 0, "frequency": 0 } }
+        }
+    ],
+    [
+        "Keras",
+        {
+            "name": "Keras",
+            "popularityAll": { "2020": { "value": 6.2 }, "2021": { "value": 10.14, "frequency": 4930 } },
+            "popularityProfessional": { "2020": { "value": 5.6 }, "2021": { "value": 8.44, "frequency": 2886 } },
+            "loved": { "2020": { "value": 67.1 }, "2021": { "value": 64.83, "frequency": 3196 } },
+            "wanted": { "2020": { "value": 3.7 }, "2021": { "value": 5.06, "frequency": 2702 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 45396, "frequency": 2165 } }
+        }
+    ],
+    [
+        "Cordova",
+        {
+            "name": "Cordova",
+            "popularityAll": { "2020": { "value": 6 }, "2021": { "value": 7.18, "frequency": 3491 } },
+            "popularityProfessional": { "2020": { "value": 6.4 }, "2021": { "value": 8.67, "frequency": 2963 } },
+            "loved": { "2020": { "value": 28.7 }, "2021": { "value": 31.740000000000002, "frequency": 1108 } },
+            "wanted": { "2020": { "value": 1.5 }, "2021": { "value": 1.29, "frequency": 709 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 39192, "frequency": 2207 } }
+        }
+    ],
+    [
+        "Xamarin",
+        {
+            "name": "Xamarin",
+            "popularityAll": { "2020": { "value": 5.8 }, "2021": { "value": 3.9, "frequency": 2844 } },
+            "popularityProfessional": { "2020": { "value": 6 }, "2021": { "value": 3.9, "frequency": 2844 } },
+            "loved": { "2020": { "value": 45.4 }, "2021": { "value": 43.32, "frequency": 1232 } },
+            "wanted": { "2020": { "value": 4.5 }, "2021": { "value": 2.8, "frequency": 2041 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 51704, "frequency": 1727 } }
+        }
+    ],
+    [
+        "Apache Spark",
+        {
+            "name": "Apache Spark",
+            "popularityAll": { "2020": { "value": 5.2 }, "2021": { "value": 5.83, "frequency": 2833 } },
+            "popularityProfessional": { "2020": { "value": 5.4 }, "2021": { "value": 6.38, "frequency": 2182 } },
+            "loved": { "2020": { "value": 57.5 }, "2021": { "value": 58.91, "frequency": 1669 } },
+            "wanted": { "2020": { "value": 5 }, "2021": { "value": 4.98, "frequency": 2764 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 67464, "frequency": 1736 } }
+        }
+    ],
+    [
+        "Torch/PyTorch",
+        {
+            "name": "Torch/PyTorch",
+            "popularityAll": { "2020": { "value": 4.6 }, "2021": { "value": 9.89, "frequency": 4808 } },
+            "popularityProfessional": { "2020": { "value": 4.1 }, "2021": { "value": 8.34, "frequency": 2851 } },
+            "loved": { "2020": { "value": 70.5 }, "2021": { "value": 68.03, "frequency": 3271 } },
+            "wanted": { "2020": { "value": 6.7 }, "2021": { "value": 12.06, "frequency": 6448 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 52869, "frequency": 2147 } }
+        }
+    ],
+    [
+        "Hadoop",
+        {
+            "name": "Hadoop",
+            "popularityAll": { "2020": { "value": 4.5 }, "2021": { "value": 4.43, "frequency": 2155 } },
+            "popularityProfessional": { "2020": { "value": 4.7 }, "2021": { "value": 4.62, "frequency": 1580 } },
+            "loved": { "2020": { "value": 46.4 }, "2021": { "value": 45.29, "frequency": 976 } },
+            "wanted": { "2020": { "value": 5.6 }, "2021": { "value": 4.87, "frequency": 2735 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 60624, "frequency": 1260 } }
+        }
+    ],
+    [
+        "Unreal Engine",
+        {
+            "name": "Unreal Engine",
+            "popularityAll": { "2020": { "value": 3.3 }, "2021": { "value": 3.21, "frequency": 2339 } },
+            "popularityProfessional": { "2020": { "value": 2.5 }, "2021": { "value": 3.21, "frequency": 2339 } },
+            "loved": { "2020": { "value": 52.7 }, "2021": { "value": 51.77, "frequency": 1211 } },
+            "wanted": { "2020": { "value": 6.3 }, "2021": { "value": 6.75, "frequency": 4955 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 49228, "frequency": 880 } }
+        }
+    ],
+    [
+        "Puppet",
+        {
+            "name": "Puppet",
+            "popularityAll": { "2020": { "value": 2.3 }, "2021": { "value": 1.8, "frequency": 1313 } },
+            "popularityProfessional": { "2020": { "value": 2.5 }, "2021": { "value": 1.8, "frequency": 1313 } },
+            "loved": { "2020": { "value": 38.5 }, "2021": { "value": 35.49, "frequency": 466 } },
+            "wanted": { "2020": { "value": 1.7 }, "2021": { "value": 1.42, "frequency": 1055 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 76000, "frequency": 883 } }
+        }
+    ],
+    [
+        "Chef",
+        {
+            "name": "Chef",
+            "popularityAll": { "2020": { "value": 1.8 }, "2021": { "value": 1.35, "frequency": 982 } },
+            "popularityProfessional": { "2020": { "value": 2 }, "2021": { "value": 1.35, "frequency": 982 } },
+            "loved": { "2020": { "value": 27.6 }, "2021": { "value": 27.49, "frequency": 270 } },
+            "wanted": { "2020": { "value": 1.6 }, "2021": { "value": 1.27, "frequency": 953 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 90000, "frequency": 659 } }
+        }
+    ],
+    [
+        "Bash/Shell",
+        {
+            "name": "Bash/Shell",
+            "popularityAll": { "2020": { "value": 0 }, "2021": { "value": 27.13, "frequency": 22385 } },
+            "popularityProfessional": { "2020": { "value": 0 }, "2021": { "value": 27.63, "frequency": 16008 } },
+            "loved": { "2020": { "value": 0 }, "2021": { "value": 56.34, "frequency": 12611 } },
+            "wanted": { "2020": { "value": 0 }, "2021": { "value": 2.48, "frequency": 1504 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 71340, "frequency": 13723 } }
+        }
+    ],
+    [
+        "PowerShell",
+        {
+            "name": "PowerShell",
+            "popularityAll": { "2020": { "value": 0 }, "2021": { "value": 10.75, "frequency": 8871 } },
+            "popularityProfessional": { "2020": { "value": 0 }, "2021": { "value": 10.96, "frequency": 6351 } },
+            "loved": { "2020": { "value": 0 }, "2021": { "value": 43.43, "frequency": 3853 } },
+            "wanted": { "2020": { "value": 0 }, "2021": { "value": 1.47, "frequency": 1090 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 68824, "frequency": 5483 } }
+        }
+    ],
+    [
+        "Matlab",
+        {
+            "name": "Matlab",
+            "popularityAll": { "2020": { "value": 0 }, "2021": { "value": 4.66, "frequency": 3846 } },
+            "popularityProfessional": { "2020": { "value": 0 }, "2021": { "value": 3.17, "frequency": 1834 } },
+            "loved": { "2020": { "value": 0 }, "2021": { "value": 21.61, "frequency": 831 } },
+            "wanted": { "2020": { "value": 0 }, "2021": { "value": 0.96, "frequency": 763 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 43948, "frequency": 1507 } }
+        }
+    ],
+    [
+        "Groovy",
+        {
+            "name": "Groovy",
+            "popularityAll": { "2020": { "value": 0 }, "2021": { "value": 3.01, "frequency": 2479 } },
+            "popularityProfessional": { "2020": { "value": 0 }, "2021": { "value": 3.64, "frequency": 2106 } },
+            "loved": { "2020": { "value": 0 }, "2021": { "value": 31.990000000000002, "frequency": 793 } },
+            "wanted": { "2020": { "value": 0 }, "2021": { "value": 0.5, "frequency": 406 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 75002, "frequency": 1747 } }
+        }
+    ],
+    [
+        "Delphi",
+        {
+            "name": "Delphi",
+            "popularityAll": { "2020": { "value": 0 }, "2021": { "value": 2.1, "frequency": 1731 } },
+            "popularityProfessional": { "2020": { "value": 0 }, "2021": { "value": 2.36, "frequency": 1367 } },
+            "loved": { "2020": { "value": 0 }, "2021": { "value": 47.370000000000005, "frequency": 820 } },
+            "wanted": { "2020": { "value": 0 }, "2021": { "value": 0.22, "frequency": 178 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 46704, "frequency": 1031 } }
+        }
+    ],
+    [
+        "Clojure",
+        {
+            "name": "Clojure",
+            "popularityAll": { "2020": { "value": 0 }, "2021": { "value": 1.88, "frequency": 1552 } },
+            "popularityProfessional": { "2020": { "value": 0 }, "2021": { "value": 2.25, "frequency": 1303 } },
+            "loved": { "2020": { "value": 0 }, "2021": { "value": 81.12, "frequency": 1259 } },
+            "wanted": { "2020": { "value": 0 }, "2021": { "value": 1.45, "frequency": 1179 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 95000, "frequency": 1074 } }
+        }
+    ],
+    [
+        "Elixir",
+        {
+            "name": "Elixir",
+            "popularityAll": { "2020": { "value": 0 }, "2021": { "value": 1.74, "frequency": 1438 } },
+            "popularityProfessional": { "2020": { "value": 0 }, "2021": { "value": 2.09, "frequency": 1208 } },
+            "loved": { "2020": { "value": 0 }, "2021": { "value": 72.11, "frequency": 1037 } },
+            "wanted": { "2020": { "value": 0 }, "2021": { "value": 2.9, "frequency": 2361 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 80077, "frequency": 1013 } }
+        }
+    ],
+    [
+        "LISP",
+        {
+            "name": "LISP",
+            "popularityAll": { "2020": { "value": 0 }, "2021": { "value": 1.33, "frequency": 1096 } },
+            "popularityProfessional": { "2020": { "value": 0 }, "2021": { "value": 1.12, "frequency": 649 } },
+            "loved": { "2020": { "value": 0 }, "2021": { "value": 55.28999999999999, "frequency": 606 } },
+            "wanted": { "2020": { "value": 0 }, "2021": { "value": 1.13, "frequency": 926 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 75669, "frequency": 516 } }
+        }
+    ],
+    [
+        "F#",
+        {
+            "name": "F#",
+            "popularityAll": { "2020": { "value": 0 }, "2021": { "value": 0.97, "frequency": 804 } },
+            "popularityProfessional": { "2020": { "value": 0 }, "2021": { "value": 1.06, "frequency": 612 } },
+            "loved": { "2020": { "value": 0 }, "2021": { "value": 62.44, "frequency": 502 } },
+            "wanted": { "2020": { "value": 0 }, "2021": { "value": 2.04, "frequency": 1678 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 81037, "frequency": 502 } }
+        }
+    ],
+    [
+        "Erlang",
+        {
+            "name": "Erlang",
+            "popularityAll": { "2020": { "value": 0 }, "2021": { "value": 0.79, "frequency": 651 } },
+            "popularityProfessional": { "2020": { "value": 0 }, "2021": { "value": 0.87, "frequency": 502 } },
+            "loved": { "2020": { "value": 0 }, "2021": { "value": 53.76, "frequency": 350 } },
+            "wanted": { "2020": { "value": 0 }, "2021": { "value": 1.28, "frequency": 1049 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 80077, "frequency": 401 } }
+        }
+    ],
+    [
+        "APL",
+        {
+            "name": "APL",
+            "popularityAll": { "2020": { "value": 0 }, "2021": { "value": 0.65, "frequency": 536 } },
+            "popularityProfessional": { "2020": { "value": 0 }, "2021": { "value": 0.47, "frequency": 270 } },
+            "loved": { "2020": { "value": 0 }, "2021": { "value": 50.74999999999999, "frequency": 272 } },
+            "wanted": { "2020": { "value": 0 }, "2021": { "value": 0.45, "frequency": 374 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 75631, "frequency": 160 } }
+        }
+    ],
+    [
+        "Crystal",
+        {
+            "name": "Crystal",
+            "popularityAll": { "2020": { "value": 0 }, "2021": { "value": 0.56, "frequency": 466 } },
+            "popularityProfessional": { "2020": { "value": 0 }, "2021": { "value": 0.58, "frequency": 334 } },
+            "loved": { "2020": { "value": 0 }, "2021": { "value": 59.440000000000005, "frequency": 277 } },
+            "wanted": { "2020": { "value": 0 }, "2021": { "value": 0.65, "frequency": 533 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 72400, "frequency": 243 } }
+        }
+    ],
+    [
+        "COBOL",
+        {
+            "name": "COBOL",
+            "popularityAll": { "2020": { "value": 0 }, "2021": { "value": 0.53, "frequency": 437 } },
+            "popularityProfessional": { "2020": { "value": 0 }, "2021": { "value": 0.49, "frequency": 286 } },
+            "loved": { "2020": { "value": 0 }, "2021": { "value": 15.790000000000001, "frequency": 69 } },
+            "wanted": { "2020": { "value": 0 }, "2021": { "value": 0.32, "frequency": 260 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 52340, "frequency": 230 } }
+        }
+    ],
+    [
+        "Other (please specify):",
+        {
+            "name": "Other (please specify):",
+            "popularityProfessional": { "2020": { "value": 0 }, "2021": { "value": 5.65, "frequency": 3270 } }
+        }
+    ],
+    [
+        "DigitalOcean",
+        {
+            "name": "DigitalOcean",
+            "popularityAll": { "2020": { "value": 0 }, "2021": { "value": 17.67, "frequency": 9495 } },
+            "popularityProfessional": { "2020": { "value": 0 }, "2021": { "value": 18.26, "frequency": 7519 } },
+            "loved": { "2020": { "value": 0 }, "2021": { "value": 58.85, "frequency": 5588 } },
+            "wanted": { "2020": { "value": 0 }, "2021": { "value": 8.46, "frequency": 4315 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 51704, "frequency": 6028 } }
+        }
+    ],
+    [
+        "Oracle Cloud Infrastructure",
+        {
+            "name": "Oracle Cloud Infrastructure",
+            "popularityAll": { "2020": { "value": 0 }, "2021": { "value": 1.89, "frequency": 1014 } },
+            "popularityProfessional": { "2020": { "value": 0 }, "2021": { "value": 1.49, "frequency": 613 } },
+            "loved": { "2020": { "value": 0 }, "2021": { "value": 42.8, "frequency": 434 } },
+            "wanted": { "2020": { "value": 0 }, "2021": { "value": 2.6, "frequency": 1550 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 51888, "frequency": 462 } }
+        }
+    ],
+    [
+        "FastAPI",
+        {
+            "name": "FastAPI",
+            "popularityAll": { "2020": { "value": 0 }, "2021": { "value": 3.88, "frequency": 2447 } },
+            "popularityProfessional": { "2020": { "value": 0 }, "2021": { "value": 3.87, "frequency": 1857 } },
+            "loved": { "2020": { "value": 0 }, "2021": { "value": 70.04, "frequency": 1714 } },
+            "wanted": { "2020": { "value": 0 }, "2021": { "value": 4.13, "frequency": 2635 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 54049, "frequency": 1492 } }
+        }
+    ],
+    [
+        "Svelte",
+        {
+            "name": "Svelte",
+            "popularityAll": { "2020": { "value": 0 }, "2021": { "value": 2.75, "frequency": 1735 } },
+            "popularityProfessional": { "2020": { "value": 0 }, "2021": { "value": 2.59, "frequency": 1243 } },
+            "loved": { "2020": { "value": 0 }, "2021": { "value": 71.47, "frequency": 1240 } },
+            "wanted": { "2020": { "value": 0 }, "2021": { "value": 6.57, "frequency": 4233 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 62520, "frequency": 1011 } }
+        }
+    ],
+    [
+        "ASP.NET Core ",
+        { "name": "ASP.NET Core ", "loved": { "2020": { "value": 0 }, "2021": { "value": 71.47, "frequency": 8151 } } }
+    ],
+    [
+        ".NET Framework",
+        {
+            "name": ".NET Framework",
+            "popularityAll": { "2020": { "value": 0 }, "2021": { "value": 34.2, "frequency": 16620 } },
+            "popularityProfessional": { "2020": { "value": 0 }, "2021": { "value": 37.1, "frequency": 12682 } },
+            "loved": { "2020": { "value": 0 }, "2021": { "value": 42.14, "frequency": 7003 } },
+            "wanted": { "2020": { "value": 0 }, "2021": { "value": 4.56, "frequency": 1899 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 59185, "frequency": 10188 } }
+        }
+    ],
+    [
+        "NumPy",
+        {
+            "name": "NumPy",
+            "popularityAll": { "2020": { "value": 0 }, "2021": { "value": 33.84, "frequency": 16445 } },
+            "popularityProfessional": { "2020": { "value": 0 }, "2021": { "value": 26.81, "frequency": 9165 } },
+            "loved": { "2020": { "value": 0 }, "2021": { "value": 66.64, "frequency": 10959 } },
+            "wanted": { "2020": { "value": 0 }, "2021": { "value": 9.93, "frequency": 4153 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 54049, "frequency": 7517 } }
+        }
+    ],
+    [
+        ".NET Core / .NET 5",
+        {
+            "name": ".NET Core / .NET 5",
+            "popularityAll": { "2020": { "value": 0 }, "2021": { "value": 31.5, "frequency": 15310 } },
+            "popularityProfessional": { "2020": { "value": 0 }, "2021": { "value": 35.26, "frequency": 12052 } },
+            "loved": { "2020": { "value": 0 }, "2021": { "value": 72.67, "frequency": 11126 } },
+            "wanted": { "2020": { "value": 0 }, "2021": { "value": 8.98, "frequency": 3860 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 62520, "frequency": 9735 } }
+        }
+    ],
+    [
+        "Qt",
+        {
+            "name": "Qt",
+            "popularityAll": { "2020": { "value": 0 }, "2021": { "value": 9.9, "frequency": 4812 } },
+            "popularityProfessional": { "2020": { "value": 0 }, "2021": { "value": 8.38, "frequency": 2864 } },
+            "loved": { "2020": { "value": 0 }, "2021": { "value": 45.37, "frequency": 2183 } },
+            "wanted": { "2020": { "value": 0 }, "2021": { "value": 4.16, "frequency": 2223 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 51888, "frequency": 2240 } }
+        }
+    ],
+    [
+        "Git",
+        {
+            "name": "Git",
+            "popularityAll": { "2020": { "value": 0 }, "2021": { "value": 93.43, "frequency": 68171 } },
+            "popularityProfessional": { "2020": { "value": 0 }, "2021": { "value": 93.43, "frequency": 68171 } },
+            "loved": { "2020": { "value": 0 }, "2021": { "value": 84.94, "frequency": 57907 } },
+            "wanted": { "2020": { "value": 0 }, "2021": { "value": 29.69, "frequency": 2263 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 56798, "frequency": 40904 } }
+        }
+    ],
+    [
+        "Yarn",
+        {
+            "name": "Yarn",
+            "popularityAll": { "2020": { "value": 0 }, "2021": { "value": 17.73, "frequency": 12937 } },
+            "popularityProfessional": { "2020": { "value": 0 }, "2021": { "value": 17.73, "frequency": 12937 } },
+            "loved": { "2020": { "value": 0 }, "2021": { "value": 63.849999999999994, "frequency": 8260 } },
+            "wanted": { "2020": { "value": 0 }, "2021": { "value": 2.94, "frequency": 1847 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 57696, "frequency": 8574 } }
+        }
+    ],
+    [
+        "Terraform",
+        {
+            "name": "Terraform",
+            "popularityAll": { "2020": { "value": 0 }, "2021": { "value": 7.46, "frequency": 5442 } },
+            "popularityProfessional": { "2020": { "value": 0 }, "2021": { "value": 7.46, "frequency": 5442 } },
+            "loved": { "2020": { "value": 0 }, "2021": { "value": 68.69, "frequency": 3738 } },
+            "wanted": { "2020": { "value": 0 }, "2021": { "value": 5.94, "frequency": 4177 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 90482, "frequency": 4293 } }
+        }
+    ],
+    [
+        "Deno",
+        {
+            "name": "Deno",
+            "popularityAll": { "2020": { "value": 0 }, "2021": { "value": 1.41, "frequency": 1027 } },
+            "popularityProfessional": { "2020": { "value": 0 }, "2021": { "value": 1.41, "frequency": 1027 } },
+            "loved": { "2020": { "value": 0 }, "2021": { "value": 68.45, "frequency": 703 } },
+            "wanted": { "2020": { "value": 0 }, "2021": { "value": 5.68, "frequency": 4246 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 64859, "frequency": 516 } }
+        }
+    ],
+    [
+        "Flow",
+        {
+            "name": "Flow",
+            "popularityAll": { "2020": { "value": 0 }, "2021": { "value": 1.27, "frequency": 929 } },
+            "popularityProfessional": { "2020": { "value": 0 }, "2021": { "value": 1.27, "frequency": 929 } },
+            "loved": { "2020": { "value": 0 }, "2021": { "value": 50.7, "frequency": 471 } },
+            "wanted": { "2020": { "value": 0 }, "2021": { "value": 0.84, "frequency": 632 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 51887, "frequency": 567 } }
+        }
+    ],
+    [
+        "Pulumi",
+        {
+            "name": "Pulumi",
+            "popularityAll": { "2020": { "value": 0 }, "2021": { "value": 0.5, "frequency": 368 } },
+            "popularityProfessional": { "2020": { "value": 0 }, "2021": { "value": 0.5, "frequency": 368 } },
+            "loved": { "2020": { "value": 0 }, "2021": { "value": 63.85999999999999, "frequency": 235 } },
+            "wanted": { "2020": { "value": 0 }, "2021": { "value": 0.95, "frequency": 719 } },
+            "income": { "2020": { "value": 0 }, "2021": { "value": 109824, "frequency": 248 } }
+        }
+    ]
+]
