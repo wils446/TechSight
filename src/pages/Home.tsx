@@ -7,12 +7,13 @@ function Home() {
     surveyDataFile.forEach((d) => surveyData.set(d[0] as string, d[1] as Technology));
 
     const [techList] = useState([...surveyData.keys()]);
+    const [input, setInput] = useState("");
 
     return (
         <div className="App">
             <header className="app-header">
                 <h1 className="text-5xl font-semibold tracking-wider font-montserrat mb-8">TechSight</h1>
-                <input type="text" list="languages" autoComplete="off" />
+                <input type="text" list="languages" onChange={(e) => setInput(e.target.value)} autoComplete="off" />
                 <datalist id="languages">
                     {techList.map((t, index) => {
                         return <option className="w-full" key={index} value={t} />;
