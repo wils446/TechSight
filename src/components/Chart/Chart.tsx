@@ -10,7 +10,7 @@ type ChartProps = {
     chartRef: React.RefObject<ChartJSOrUndefined<"line", string[], string>>;
 };
 
-function LineChart({ data, category, chartRef }: ChartProps): JSX.Element {
+const LineChart: React.FC<ChartProps> = ({ data, category, chartRef }) => {
     const chartData: ChartData<"line", string[], string> = {
         labels: Object.keys(data[0].loved),
         datasets: [
@@ -26,6 +26,6 @@ function LineChart({ data, category, chartRef }: ChartProps): JSX.Element {
     };
 
     return <Chart type="line" id="line-chart" data={chartData} ref={chartRef} options={{}} />;
-}
+};
 
 export default LineChart;
