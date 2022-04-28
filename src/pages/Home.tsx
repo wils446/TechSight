@@ -2,6 +2,15 @@ import { Technology } from "../common/interface/DataTyping";
 import surveyDataFile from "../data/survey.json";
 import Select from "react-select";
 import { createRef, useEffect, useState } from "react";
+import {
+    Chart as ChartJS,
+    CategoryScale,
+    LineController,
+    LineElement,
+    PointElement,
+    LinearScale,
+    Title,
+} from "chart.js";
 import { LineChart } from "../components";
 import { ChartJSOrUndefined } from "react-chartjs-2/dist/types";
 
@@ -24,6 +33,7 @@ function Home() {
 
     useEffect(() => {
         destroyChartIfExists(chartRef.current);
+        console.log(input);
 
         input.forEach((t) => {
             if (surveyData.has(t)) {
@@ -36,6 +46,9 @@ function Home() {
         });
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [input]);
+
+    //register chart
+    ChartJS.register(LineController, LineElement, PointElement, LinearScale, Title, CategoryScale);
 
     return (
         <div className="App">
