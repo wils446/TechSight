@@ -14,10 +14,6 @@ import {
 import { LineChart } from "../components";
 import { ChartJSOrUndefined } from "react-chartjs-2/dist/types";
 
-function destroyChartIfExists(chart: ChartJSOrUndefined<"line", string[], string> | null) {
-    if (chart) chart.destroy();
-}
-
 function Home() {
     const surveyData = new Map<string, Technology>();
     surveyDataFile.forEach((d) => surveyData.set(d[0] as string, d[1] as Technology));
@@ -32,18 +28,11 @@ function Home() {
     };
 
     useEffect(() => {
-        destroyChartIfExists(chartRef.current);
-        console.log(input);
-
-        input.forEach((t) => {
-            if (surveyData.has(t)) {
-                setSelectedTech((prev) => [...prev, surveyData.get(t) as Technology]);
-            }
-
-            if (selectedTech.length > input.length) {
-                setSelectedTech((prev) => prev.filter((tech) => input.includes(tech.name)));
-            }
+        const currentTech: Technology[] = input.map((t) => {
+            return surveyData.get(t)!;
         });
+
+        setSelectedTech([...currentTech]);
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [input]);
 
