@@ -1,8 +1,13 @@
 import { Technology } from "../common/interface/DataTyping";
 import surveyDataFile from "../data/survey.json";
 import Select from "react-select";
-import { useEffect, useState } from "react";
+import { createRef, useEffect, useState } from "react";
 import { LineChart } from "../components";
+import { ChartJSOrUndefined } from "react-chartjs-2/dist/types";
+
+function destroyChartIfExists(chart: ChartJSOrUndefined<"line", string[], string> | null) {
+    if (chart) chart.destroy();
+}
 
 function Home() {
     const surveyData = new Map<string, Technology>();
@@ -11,12 +16,15 @@ function Home() {
     const [techList] = useState([...surveyData.keys()]);
     const [selectedTech, setSelectedTech] = useState<Technology[]>([]);
     const [input, setInput] = useState<string[]>([]);
+    const chartRef = createRef<ChartJSOrUndefined<"line", string[], string>>();
 
     const getTechOptions = () => {
         return techList.map((t) => ({ value: t, label: t }));
     };
 
     useEffect(() => {
+        destroyChartIfExists(chartRef.current);
+
         input.forEach((t) => {
             if (surveyData.has(t)) {
                 setSelectedTech((prev) => [...prev, surveyData.get(t) as Technology]);
@@ -43,6 +51,9 @@ function Home() {
                     placeholder="Select Technology..."
                 />
             </header>
+            <div className="container mx-auto px-40">
+                {selectedTech.length ? <LineChart data={selectedTech} chartRef={chartRef} category={"loved"} /> : <></>}
+            </div>
         </div>
     );
 }
