@@ -16,3 +16,5 @@ export interface Data {
     value: number;
     frequency?: number;
 }
+
+export type Category = keyof Omit<Technology, "name">;
