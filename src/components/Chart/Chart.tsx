@@ -1,6 +1,6 @@
 import { Technology } from "../../common/interface/DataTyping";
 import { Chart } from "react-chartjs-2";
-import { ChartData } from "chart.js";
+import { ChartData, ChartOptions } from "chart.js";
 import React from "react";
 import { ChartJSOrUndefined } from "react-chartjs-2/dist/types";
 
@@ -15,17 +15,47 @@ const LineChart: React.FC<ChartProps> = ({ data, category, chartRef }) => {
         labels: Object.keys(data[0].loved),
         datasets: [
             ...data.map((data) => {
+                const color = `#${Math.floor(Math.random() * 16777215).toString(16)}`;
                 return {
                     label: data.name,
                     data: [...Object.values(data[category]).map((d) => d.value)],
-                    backgroundColor: `#${Math.floor(Math.random() * 16777215).toString(16)}`,
-                    borderColor: `#${Math.floor(Math.random() * 16777215).toString(16)}`,
+                    borderColor: color,
+                    backgroundColor: color,
+                    fill: false,
                 };
             }),
         ],
     };
 
-    return <Chart type="line" id="line-chart" data={chartData} ref={chartRef} options={{}} />;
+    const chartOptions: ChartOptions = {
+        responsive: true,
+        interaction: {
+            mode: "nearest",
+        },
+        plugins: {
+            tooltip: {
+                enabled: true,
+                callbacks: {
+                    title: (tooltipItems) => {
+                        return `Year : ${tooltipItems[0].label}`;
+                    },
+                },
+                mode: "index",
+                intersect: false,
+            },
+        },
+        hover: {
+            mode: "nearest",
+            intersect: false,
+        },
+        elements: {
+            line: {
+                tension: 0.1,
+            },
+        },
+    };
+
+    return <Chart type="line" data={chartData} ref={chartRef} options={chartOptions} />;
 };
 
 export default LineChart;

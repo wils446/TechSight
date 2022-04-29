@@ -10,9 +10,10 @@ import {
     PointElement,
     LinearScale,
     Title,
+    Tooltip,
 } from "chart.js";
-import { LineChart } from "../components";
 import { ChartJSOrUndefined } from "react-chartjs-2/dist/types";
+import { LineChart } from "../components";
 
 function Home() {
     const surveyData = new Map<string, Technology>();
@@ -37,7 +38,7 @@ function Home() {
     }, [input]);
 
     //register chart
-    ChartJS.register(LineController, LineElement, PointElement, LinearScale, Title, CategoryScale);
+    ChartJS.register(LineController, LineElement, PointElement, LinearScale, Title, CategoryScale, Tooltip);
 
     return (
         <div className="App">
