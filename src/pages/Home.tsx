@@ -1,4 +1,4 @@
-import { Technology } from "../common/interface/DataTyping";
+import { Category, Technology } from "../common/interface/DataTyping";
 import surveyDataFile from "../data/survey.json";
 import Select from "react-select";
 import { createRef, useEffect, useState } from "react";
@@ -13,7 +13,7 @@ import {
     Tooltip,
 } from "chart.js";
 import { ChartJSOrUndefined } from "react-chartjs-2/dist/types";
-import { LineChart } from "../components";
+import { LineChart, CategoryButton } from "../components";
 
 function Home() {
     const surveyData = new Map<string, Technology>();
@@ -21,11 +21,16 @@ function Home() {
 
     const [techList] = useState([...surveyData.keys()]);
     const [selectedTech, setSelectedTech] = useState<Technology[]>([]);
+    const [category, setCategory] = useState<Category>("popularityAll");
     const [input, setInput] = useState<string[]>([]);
     const chartRef = createRef<ChartJSOrUndefined<"line", string[], string>>();
 
     const getTechOptions = () => {
         return techList.map((t) => ({ value: t, label: t }));
+    };
+
+    const handleCategoryChange = (ctgry: Category) => {
+        setCategory(ctgry);
     };
 
     useEffect(() => {
@@ -55,7 +60,12 @@ function Home() {
                 />
             </header>
             <div className="container mx-auto px-40">
-                {selectedTech.length ? <LineChart data={selectedTech} chartRef={chartRef} category={"loved"} /> : <></>}
+                <CategoryButton categoryLabel={category} categoryOnChangeHandler={handleCategoryChange} />
+                {selectedTech.length ? (
+                    <LineChart data={selectedTech} chartRef={chartRef} category={category} />
+                ) : (
+                    <></>
+                )}
             </div>
         </div>
     );
