@@ -7,7 +7,6 @@ type CategoryButtonProps = {
 
 const CategoryButton: React.FC<CategoryButtonProps> = ({ categoryLabel, categoryOnChangeHandler }) => {
     const labels = ["popularityAll", "popularityProfessional", "loved", "wanted", "income"];
-    console.log(categoryLabel);
 
     return (
         <div className="category-button">
