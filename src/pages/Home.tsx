@@ -59,7 +59,7 @@ function Home() {
                     placeholder="Select Technology..."
                 />
             </header>
-            <div className="container mx-auto px-40">
+            <div className="app-body">
                 <CategoryButton categoryLabel={category} categoryOnChangeHandler={handleCategoryChange} />
                 {selectedTech.length ? (
                     <LineChart data={selectedTech} chartRef={chartRef} category={category} />
