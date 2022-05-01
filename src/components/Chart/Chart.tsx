@@ -55,7 +55,7 @@ const LineChart: React.FC<ChartProps> = ({ data, category, chartRef }) => {
         },
     };
 
-    return <Chart type="line" data={chartData} ref={chartRef} options={chartOptions} />;
+    return <Chart className="line-chart" type="line" data={chartData} ref={chartRef} options={chartOptions} />;
 };
 
 export default LineChart;
