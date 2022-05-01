@@ -17,11 +17,18 @@
     font-size: 16px;
 }
 
+.app-body {
+    @apply container;
+    @apply mx-auto;
+    @apply px-40;
+}
+
 .category-button {
     @apply w-full;
     @apply flex;
     @apply flex-wrap;
     @apply justify-center;
+    @apply mb-6;
 }
 
 .category-button button {
@@ -36,4 +43,32 @@
 .category-button .active {
     @apply bg-slate-700;
     @apply text-white;
+}
+
+@media only screen and (max-width: 768px) {
+    .app-header {
+        @apply px-10;
+    }
+
+    .app-body {
+        @apply px-10;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .app-header {
+        @apply px-4;
+    }
+
+    .app-body {
+        @apply px-4;
+    }
+
+    .category-button {
+        @apply w-full;
+        @apply flex;
+        @apply flex-col;
+        @apply justify-center;
+        @apply mb-6;
+    }
 }
