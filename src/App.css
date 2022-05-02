@@ -43,6 +43,8 @@
 .category-button .active {
     @apply bg-slate-700;
     @apply text-white;
+    @apply hover:bg-slate-700;
+    @apply hover:cursor-default;
 }
 
 @media only screen and (max-width: 768px) {
